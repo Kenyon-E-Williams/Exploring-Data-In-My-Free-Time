@@ -19,5 +19,5 @@ ETL Process (Excel)
 3) Filter Gross to only show movies with gross='*****'
 4) Delete These entries (^). They represent incomplete data as alot of these movies were recently released and didint have complete information when the data was pulled. 
 5) Clean up headers by adding a little context for number meaning (units,out of, etc)
-6)Hide the irrelevant columns (log line)
+6)Hide the irrelevant columns (log line,Worldwide LT Gross, Movie Rating)
 7) Format Data (centering all numerics, align left for text columns, Freeze headers)
