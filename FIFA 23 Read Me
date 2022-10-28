@@ -1,3 +1,5 @@
 This is an overview of my FIFA 23 Player Rating Dashboard.
 
-The onset and reasoning for exploring this dataset roots in my love for both Soccer and Video Games alike. 
+The onset and reasoning for exploring this dataset roots in my love for both Soccer and Video Games alike. I found this dataset on Kaggle and decided to download it roughly a week after FIFA released FIFA 23. The original file was in a csv format. Upon opening and inspecting the file, I discovered that all of the data column headers were in French. Thusly after converting to a xlsx file I went through translated and renamed each of the columns so that they were in English. 
+
+One of the goals I wanted to accomplish in building this dashboard was to see what players were the best overall, best offensively, best defensively and best goal keeping wise. Thus I created four different pages for these metrics. The color code was established after grouping together the ratings in a way so they were split between intangible skills, offensive skills, defensive skills, and goal keeping skills. I hoped that the color code would make it easier to distinguish at first glance how good a player was without having to go through the nitty gritty details of each category making up their offenisve, defensive, and goal keeping skill. 
