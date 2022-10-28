@@ -1,0 +1,23 @@
+Source Data Pulled From: https://www.kaggle.com/datasets/therealoise/top-1000-highest-grossing-movies-of-all-time
+Scraped from this site:https://www.imdb.com/list/ls098063263/
+
+--DATA DICTIONARY--
+Movie Title: The name of the Movie 
+Year Of Release: The year the movie was released
+Genre: Catagories where the movie belongs
+Movie Rating: Ratings given by IMDb registered users (on a scale of 1 to 10)
+Duration: Movie running time in minutes 
+Gross: Gross Earnings in U.S Dollars (domestic earnings)
+Worldwide LT Gross: Worldwide Lifetime Gross (International + Domestic totals)
+Metascore: Weighted Average of many reviews coming from reputed critics (on a scale from 0 to 100)
+Votes: Number of votes cast by IMDb registered users
+Logline: A one or two sentance summary of the film
+---------------------
+ETL Process (Excel)
+1) Convert Worldwide LT Gross to millions (divide by 1 million. For eg. 2,847397,339/1,000,000=2,847.4)
+2) Convert Movie Ratings to out of 100 ( multiply values by 10. For eg: 7.8 converts to 78/100)
+3) Filter Gross to only show movies with gross='*****'
+4) Delete These entries (^). They represent incomplete data as alot of these movies were recently released and didint have complete information when the data was pulled. 
+5) Clean up headers by adding a little context for number meaning (units,out of, etc)
+6)Hide the irrelevant columns (log line)
+7) Format Data (centering all numerics, align left for text columns, Freeze headers)
